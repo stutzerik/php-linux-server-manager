@@ -8,6 +8,8 @@ PhP-based remote Linux server &amp; virtual machine (VPS) management interface -
 - Account management (simple users, system administrators)
 - The application logs all activity
 
+![NextCaligo Server-manager](https://i.ibb.co/9bWHxCK/panel1.png)
+
 
 ## Installing & components
 Components required for proper working:
