@@ -1,7 +1,7 @@
 # NextCaligo - Linux server manager
 PhP-based remote Linux server &amp; virtual machine (VPS) management interface - thesis of Erik Stütz :tada:
 
-## Functions:
+## Functions
 - Connect remote Linux servers (reboot, shutdown, change root password, change hostname, view resource statistics)
 - Manage local server 
 - Deploy and manage KVM virtual machines (start, stop, restart, create and restore backups, resize VM memory, delete)
@@ -30,6 +30,7 @@ GNU General Public License v3.0 - It can be modified, distributed and used freel
 I used open source libraries during development.
 - Backend: Secureimage, TorUtils, PHPMailer
 - Frontend: MDB4, Jquery 3, Bootstrap 4, FontAwesome 5 Free, ApexCharts, DataTables 1.13, ParticlesJS, "font-logos", "flag-icons" 
+
 ** I also indicated the frameworks, libraries and literature used for the project on the user interface of the application, thereby complying with the `open source` licenses.
 
 > Thank you for reading!
