@@ -16,9 +16,9 @@ Components required for proper working:
 - Argon2ID implementation
 - MariaDB/MySQL server
 - Libvirt Tools & KVM
-- SMTP server
+- SMTP mail server
 
-Install (Test phase: it overwrites everything):
+Install components (Test phase: it overwrites everything):
 ```
 sh installer/install_en.sh
 ```
