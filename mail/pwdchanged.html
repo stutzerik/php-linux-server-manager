@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .card { display: block; }
+        .card-header {
+            padding: 16px;
+            background-color: #e0e0e0;
+            font-size: 18px;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .lead { font-size: 16px; }
+
+        .card-body {
+            font-size: 14px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            Jelszó megváltoztatva
+        </div>
+        <div class="card-body">
+            <p class="lead">
+                Tisztelt {{username}}, <br>
+                Ezt az emailt azért kapta, mert a fiókjához tartozó jelszó megváltozott.
+            </p>
+            <b>
+                Az új jelszó: {{password}}
+            </b>
+            <hr>
+            <i>
+                Amennyiben nem Ön kezdeményezte a helyreállítást, kérjük, változtassa meg a fiókja jelszavát.
+            </i>
+            <hr>
+            Jelen levelet ne továbbítsa senkinek, ne nyomtassa ki fiókja biztonsága érdekében. Amennyiben nem
+            ismeri fel a tevékenységet, kérjük, változtasson jelszót.
+        </div>
+    </div>
+</body>
+</html>

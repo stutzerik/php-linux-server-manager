@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .card { display: block; }
+        .card-header {
+            padding: 16px;
+            background-color: #e0e0e0;
+            font-size: 18px;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .lead { font-size: 16px; }
+
+        .card-body {
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        .btn-url {
+            background-color:#e0e0e0;
+            padding: 6px;
+            border-radius: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            Jelszó emlékeztető
+        </div>
+        <div class="card-body">
+            <p class="lead">
+                Tisztelt {{username}}, <br>
+                Ezt az emailt azért kapta, mert valaki jelszó emlékezetési kérelmet nyújtott be a fiókjához.
+            </p>
+            <b>
+                Az alábbi linken állítható be új jelszó:<br><br>
+                <span class="btn-url">{{url}}</span>
+            </b>
+            <hr>
+            <i>
+                Amennyiben nem Ön kezdeményezte a helyreállítást, kérjük, tekintse tárgytalannak levelünk.
+            </i>
+            <hr>
+            Jelen levelet ne továbbítsa senkinek, ne nyomtassa ki fiókja biztonsága érdekében. Amennyiben nem
+            ismeri fel a tevékenységet, kérjük, ne változtasson jelszót.
+        </div>
+    </div>
+</body>
+</html>
