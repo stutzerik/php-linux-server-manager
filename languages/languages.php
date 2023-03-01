@@ -24,7 +24,7 @@ if (isset($_COOKIE['lang']))
 //Alapértelmezett nyelv
 else
 {
-    $lang = 'hu';
+    $lang = 'en';
 }
 
 //Nyelv kiválasztása
@@ -37,7 +37,7 @@ switch ($lang)
         $lang_file = 'lang.en.php';
         break;
     default:
-        $lang_file = 'lang.hu.php';
+        $lang_file = 'lang.en.php';
 }
 
 //Választott nyelvfájl meghívása
