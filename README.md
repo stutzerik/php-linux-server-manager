@@ -7,6 +7,7 @@ PhP-based remote Linux server &amp; virtual machine (VPS) management interface -
 - Deploy and manage KVM virtual machines (start, stop, restart, create and restore backups, resize VM memory, delete)
 - Account management (simple users, system administrators)
 - The application logs all activity
+- Integrated web app firewall
 
 ![NextCaligo Server-manager](https://i.ibb.co/9bWHxCK/panel1.png)
 
