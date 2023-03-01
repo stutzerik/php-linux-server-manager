@@ -1,0 +1,24 @@
+{
+  "name" : "dapphp/torutils",
+  "description" : "Classes for interacting with Tor over the control protocol, querying directory authorities and servers, DNS exit lists, a curl wrapper that makes it easy to use Tor's SOCKS proxy, and more.",
+  "license" : "BSD-3-Clause",
+  "require" : {
+    "php" : ">=5.5"
+  },
+  "authors" : [ {
+    "name" : "Drew Phillips",
+    "email" : "drew@drew-phillips.com",
+    "homepage" : "http://drew-phillips.com"
+  } ],
+  "keywords" : [ "tor", "tor client", "anonynimity", "onion", "curl" ],
+  "autoload" : {
+    "psr-4" : {
+      "Dapphp\\TorUtils\\" : "src/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "https://github.com/dapphp/TorUtils",
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  }
+}
