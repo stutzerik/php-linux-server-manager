@@ -28,7 +28,7 @@ sh installer/install_en.sh
 
 
 ## License
-GNU General Public License v3.0 - It can be modified, distributed and used freely
+GNU General Public License v3.0 - It can be modified, distributed and used freely, but please credit me as the author.
 
 ** This project is my thesis, so it is not my life's work. My basic goal with it is to create a reference and explain my thinking to my future partners. However, if someone wants to develop it further, I am open to it.
 
