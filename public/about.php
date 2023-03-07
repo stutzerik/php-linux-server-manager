@@ -104,6 +104,13 @@
                         <td>Képek, illusztrációk</td>
                         <td>Flaticon, Storyset ("designed by Flat Icons, Smashicons, Freepik from Flaticon")</td>
                       </tr>
+                      <tr>
+                        <td>Térkép API</td>
+                        <td>
+                          This product includes GeoLite data created by MaxMind, available from
+                          <a href="http://www.maxmind.com">http://www.maxmind.com</a>.
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -200,6 +207,13 @@
                       <tr>
                         <td>Pictures, illustrations</td>
                         <td>Flaticon, Storyset ("designed by Flat Icons, Smashicons, Freepik from Flaticon")</td>
+                      </tr>
+                      <tr>
+                        <td>Map API</td>
+                        <td>
+                          This product includes GeoLite data created by MaxMind, available from
+                          <a href="http://www.maxmind.com">http://www.maxmind.com</a>.
+                        </td>
                       </tr>
                     </tbody>
                   </table>
