@@ -114,7 +114,7 @@ if(isset($_POST['btn-login']))
             $lcremaining = 5 - $_SESSION['logincount'];
             $lcremaining_warn = $lang['LcRemaining'];
 
-            //Látogató kitiltása 6 elrontott kísérlet után 10 percre
+            //Látogató kitiltása 5 elrontott kísérlet után 10 percre
             if ($_SESSION['logincount'] > 5)
             {
                 header('');
