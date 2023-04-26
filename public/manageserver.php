@@ -137,6 +137,8 @@
          //Parancs elküldése
          $remote->ssh_connect($ip_address, $ssh_port, $hash_file, 
          $command = "/usr/bin/sudo echo -e '{$rootpwd}\n{$rootpwd}' | passwd root > /dev/null 2>&1");
+         $rootchgd = base64_encode($rootpwd);
+         shell_exec("/usr/bin/sudo sh -c 'echo {$rootchgd} > /var/www/ssh_keys/{$hash_file}.key'");
 
          //Naplózás
          $log = $db->query('SELECT id FROM accounts WHERE username = ?', 
@@ -392,7 +394,7 @@
                         ?>
                         <form method="POST" class="col-sm-6">
                            <div class="md-form md-bg">
-                              <input type="password" name="rootpwd" class="form-control" id="rootpwd" maxlength="30">
+                              <input type="password" name="rootpwd" class="form-control" id="rootpwd" maxlength="50">
                               <label for="rootpwd"><?php echo $lang['NewRootPwd']; ?></label>
                            </div>
                            <?php if(isset($emptyPwd)) { ?> 
@@ -574,7 +576,7 @@
          //Különleges karakterek blokkolása
          $('input').on('keypress', function (event) 
          {
-            var regex = new RegExp("^[a-zA-Z0-9,.]+$");
+            var regex = new RegExp("^[a-zA-Z0-9,.,#,=,?]+$");
             var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
             if (!regex.test(key)) 
             {
