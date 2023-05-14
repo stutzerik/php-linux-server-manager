@@ -25,6 +25,7 @@ case $yn in
     sudo cp 000-default.conf /etc/apache2/sites-available
     sudo rm -rf /etc/apache2/apache2.conf
     sudo cp apache2.conf /etc/apache2
+    sudo a2enmod rewrite
     sudo systemctl restart apache2
     sudo systemctl enable apache2
     echo "Installing MySQL database server...";
