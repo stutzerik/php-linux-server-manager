@@ -32,7 +32,7 @@ case $yn in
     apt-get -y install mysql-server mysql-client phpmyadmin
     sudo systemctl start mysql
     sudo systemctl enable mysql
-    mysql -uroot -p < createdb.sql
+    mysql -u root -p < createdb.sql
     echo "Installing KVM hypervisor...";
     apt-get -y install qemu-kvm libvirt-daemon-system virtinst libvirt-clients bridge-utils
     sudo systemctl enable libvirtd
